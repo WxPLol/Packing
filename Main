@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -67,6 +72,7 @@ local TextLabel_2 = Instance.new("TextLabel")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -480,7 +486,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function GOVKW_fake_script() -- NonBypassed.LocalScript 
+local function TOHE_fake_script() -- NonBypassed.LocalScript 
 	local script = Instance.new('LocalScript', NonBypassed)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -488,8 +494,8 @@ local function GOVKW_fake_script() -- NonBypassed.LocalScript
 		script.Parent.Parent.Parent.B.Visible = false
 	end)
 end
-coroutine.wrap(GOVKW_fake_script)()
-local function WDLRTPA_fake_script() -- Bypassed.LocalScript 
+coroutine.wrap(TOHE_fake_script)()
+local function ONLN_fake_script() -- Bypassed.LocalScript 
 	local script = Instance.new('LocalScript', Bypassed)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -497,8 +503,8 @@ local function WDLRTPA_fake_script() -- Bypassed.LocalScript
 		script.Parent.Parent.Parent.B.Visible = true
 	end)
 end
-coroutine.wrap(WDLRTPA_fake_script)()
-local function OIWTM_fake_script() -- A.LocalScript 
+coroutine.wrap(ONLN_fake_script)()
+local function WQPMUFK_fake_script() -- A.LocalScript 
 	local script = Instance.new('LocalScript', A)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -510,8 +516,8 @@ local function OIWTM_fake_script() -- A.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(OIWTM_fake_script)()
-local function ELEA_fake_script() -- B.LocalScript 
+coroutine.wrap(WQPMUFK_fake_script)()
+local function MUDMGG_fake_script() -- B.LocalScript 
 	local script = Instance.new('LocalScript', B)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -523,8 +529,8 @@ local function ELEA_fake_script() -- B.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(ELEA_fake_script)()
-local function YOSFJEO_fake_script() -- C.LocalScript 
+coroutine.wrap(MUDMGG_fake_script)()
+local function AIGDKXC_fake_script() -- C.LocalScript 
 	local script = Instance.new('LocalScript', C)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -536,8 +542,8 @@ local function YOSFJEO_fake_script() -- C.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(YOSFJEO_fake_script)()
-local function BHVWMJJ_fake_script() -- F.LocalScript 
+coroutine.wrap(AIGDKXC_fake_script)()
+local function IKKDJXF_fake_script() -- F.LocalScript 
 	local script = Instance.new('LocalScript', F)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -549,8 +555,8 @@ local function BHVWMJJ_fake_script() -- F.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(BHVWMJJ_fake_script)()
-local function HIYNPX_fake_script() -- D.LocalScript 
+coroutine.wrap(IKKDJXF_fake_script)()
+local function KRBVO_fake_script() -- D.LocalScript 
 	local script = Instance.new('LocalScript', D)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -562,8 +568,8 @@ local function HIYNPX_fake_script() -- D.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(HIYNPX_fake_script)()
-local function IISGJ_fake_script() -- E.LocalScript 
+coroutine.wrap(KRBVO_fake_script)()
+local function IHRX_fake_script() -- E.LocalScript 
 	local script = Instance.new('LocalScript', E)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -575,8 +581,8 @@ local function IISGJ_fake_script() -- E.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(IISGJ_fake_script)()
-local function LRFVGFG_fake_script() -- J.LocalScript 
+coroutine.wrap(IHRX_fake_script)()
+local function FVLY_fake_script() -- J.LocalScript 
 	local script = Instance.new('LocalScript', J)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -588,8 +594,8 @@ local function LRFVGFG_fake_script() -- J.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(LRFVGFG_fake_script)()
-local function ELVTG_fake_script() -- G.LocalScript 
+coroutine.wrap(FVLY_fake_script)()
+local function VHFCV_fake_script() -- G.LocalScript 
 	local script = Instance.new('LocalScript', G)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -601,8 +607,8 @@ local function ELVTG_fake_script() -- G.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(ELVTG_fake_script)()
-local function RLMWJ_fake_script() -- H.LocalScript 
+coroutine.wrap(VHFCV_fake_script)()
+local function GNEZ_fake_script() -- H.LocalScript 
 	local script = Instance.new('LocalScript', H)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -614,8 +620,8 @@ local function RLMWJ_fake_script() -- H.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(RLMWJ_fake_script)()
-local function DFHEU_fake_script() -- K.LocalScript 
+coroutine.wrap(GNEZ_fake_script)()
+local function JWMJY_fake_script() -- K.LocalScript 
 	local script = Instance.new('LocalScript', K)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -627,8 +633,8 @@ local function DFHEU_fake_script() -- K.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(DFHEU_fake_script)()
-local function CBJL_fake_script() -- I.LocalScript 
+coroutine.wrap(JWMJY_fake_script)()
+local function DNCKQ_fake_script() -- I.LocalScript 
 	local script = Instance.new('LocalScript', I)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -640,8 +646,8 @@ local function CBJL_fake_script() -- I.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(CBJL_fake_script)()
-local function UZXZSX_fake_script() -- L.LocalScript 
+coroutine.wrap(DNCKQ_fake_script)()
+local function ZXDVEIJ_fake_script() -- L.LocalScript 
 	local script = Instance.new('LocalScript', L)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -653,8 +659,8 @@ local function UZXZSX_fake_script() -- L.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(UZXZSX_fake_script)()
-local function CDVUY_fake_script() -- U.LocalScript 
+coroutine.wrap(ZXDVEIJ_fake_script)()
+local function FDMABQM_fake_script() -- U.LocalScript 
 	local script = Instance.new('LocalScript', U)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -666,8 +672,8 @@ local function CDVUY_fake_script() -- U.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(CDVUY_fake_script)()
-local function QBVIBZ_fake_script() -- T.LocalScript 
+coroutine.wrap(FDMABQM_fake_script)()
+local function YGAWH_fake_script() -- T.LocalScript 
 	local script = Instance.new('LocalScript', T)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -679,8 +685,8 @@ local function QBVIBZ_fake_script() -- T.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(QBVIBZ_fake_script)()
-local function MPBAFA_fake_script() -- S.LocalScript 
+coroutine.wrap(YGAWH_fake_script)()
+local function SUXE_fake_script() -- S.LocalScript 
 	local script = Instance.new('LocalScript', S)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -692,8 +698,8 @@ local function MPBAFA_fake_script() -- S.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(MPBAFA_fake_script)()
-local function XERR_fake_script() -- P.LocalScript 
+coroutine.wrap(SUXE_fake_script)()
+local function YETXKDG_fake_script() -- P.LocalScript 
 	local script = Instance.new('LocalScript', P)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -705,8 +711,8 @@ local function XERR_fake_script() -- P.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(XERR_fake_script)()
-local function UJHPPX_fake_script() -- Q.LocalScript 
+coroutine.wrap(YETXKDG_fake_script)()
+local function IQNO_fake_script() -- Q.LocalScript 
 	local script = Instance.new('LocalScript', Q)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -718,8 +724,8 @@ local function UJHPPX_fake_script() -- Q.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(UJHPPX_fake_script)()
-local function LZJRNI_fake_script() -- R.LocalScript 
+coroutine.wrap(IQNO_fake_script)()
+local function JBZUCWJ_fake_script() -- R.LocalScript 
 	local script = Instance.new('LocalScript', R)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -731,8 +737,8 @@ local function LZJRNI_fake_script() -- R.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(LZJRNI_fake_script)()
-local function OXCH_fake_script() -- O.LocalScript 
+coroutine.wrap(JBZUCWJ_fake_script)()
+local function MVNDJGW_fake_script() -- O.LocalScript 
 	local script = Instance.new('LocalScript', O)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -744,8 +750,8 @@ local function OXCH_fake_script() -- O.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(OXCH_fake_script)()
-local function QPSWY_fake_script() -- N_2.LocalScript 
+coroutine.wrap(MVNDJGW_fake_script)()
+local function PUYBIWR_fake_script() -- N_2.LocalScript 
 	local script = Instance.new('LocalScript', N_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -757,8 +763,8 @@ local function QPSWY_fake_script() -- N_2.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(QPSWY_fake_script)()
-local function HOUL_fake_script() -- M.LocalScript 
+coroutine.wrap(PUYBIWR_fake_script)()
+local function SKUAC_fake_script() -- M.LocalScript 
 	local script = Instance.new('LocalScript', M)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -770,8 +776,8 @@ local function HOUL_fake_script() -- M.LocalScript
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end)
 end
-coroutine.wrap(HOUL_fake_script)()
-local function JJXMFOY_fake_script() -- Frame.Smooth GUI Dragging 
+coroutine.wrap(SKUAC_fake_script)()
+local function CSAWV_fake_script() -- Frame.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -828,4 +834,4 @@ local function JJXMFOY_fake_script() -- Frame.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(JJXMFOY_fake_script)()
+coroutine.wrap(CSAWV_fake_script)()
