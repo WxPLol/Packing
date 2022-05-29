@@ -1,0 +1,831 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Background = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TopBar = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Hub = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local NonBypassed = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local Bypassed = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local N = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local A = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local B = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local C = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local F = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local D = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local E = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local J = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local G = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local H = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local K = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local I = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local L = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local U = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local T = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local S = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local P = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Q = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local R = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local O = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local N_2 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local M = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local B_2 = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.35822022, 0, 0.312280715, 0)
+Frame.Size = UDim2.new(0.282805443, 0, 0.334502876, 0)
+
+UICorner.Parent = Frame
+
+Background.Name = "Background"
+Background.Parent = Frame
+Background.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Background.BackgroundTransparency = 0.500
+Background.Position = UDim2.new(-0.018666666, 0, -0.0244060624, 0)
+Background.Size = UDim2.new(1.0346669, 0, 1.0453155, 0)
+
+UICorner_2.Parent = Background
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Frame
+TopBar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TopBar.Position = UDim2.new(0, 0, -0.00342703913, 0)
+TopBar.Size = UDim2.new(1.00000036, 0, 0.0907700509, 0)
+
+UICorner_3.Parent = TopBar
+
+TextLabel.Parent = TopBar
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0.999999583, 0, 1.00000012, 0)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "PackHub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Hub.Name = "Hub"
+Hub.Parent = Frame
+Hub.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Hub.Position = UDim2.new(0, 0, 0.139929622, 0)
+Hub.Size = UDim2.new(1.00000012, 0, 0.860000789, 0)
+
+UICorner_4.Parent = Hub
+
+Tabs.Name = "Tabs"
+Tabs.Parent = Hub
+Tabs.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Tabs.Position = UDim2.new(0.0186666641, 0, 0.0260899272, 0)
+Tabs.Size = UDim2.new(0.253333509, 0, 0.949516118, 0)
+
+UIListLayout.Parent = Tabs
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout.Padding = UDim.new(0, 10)
+
+NonBypassed.Name = "NonBypassed"
+NonBypassed.Parent = Tabs
+NonBypassed.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+NonBypassed.Position = UDim2.new(0.499999881, 0, 0.50000006, 0)
+NonBypassed.Size = UDim2.new(0.894736052, 0, 0.107046582, 0)
+NonBypassed.Font = Enum.Font.SciFi
+NonBypassed.Text = "NonBypassed"
+NonBypassed.TextColor3 = Color3.fromRGB(255, 255, 255)
+NonBypassed.TextScaled = true
+NonBypassed.TextSize = 14.000
+NonBypassed.TextWrapped = true
+
+UICorner_5.Parent = NonBypassed
+
+UICorner_6.Parent = Tabs
+
+Bypassed.Name = "Bypassed"
+Bypassed.Parent = Tabs
+Bypassed.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Bypassed.Position = UDim2.new(0.499999881, 0, 0.50000006, 0)
+Bypassed.Size = UDim2.new(0.894736052, 0, 0.107046582, 0)
+Bypassed.Font = Enum.Font.SciFi
+Bypassed.Text = "Bypassed"
+Bypassed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bypassed.TextScaled = true
+Bypassed.TextSize = 14.000
+Bypassed.TextWrapped = true
+
+UICorner_7.Parent = Bypassed
+
+N.Name = "N"
+N.Parent = Hub
+N.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+N.Position = UDim2.new(0.290666699, 0, 0.0260899272, 0)
+N.Size = UDim2.new(0.690666854, 0, 0.949516118, 0)
+N.Visible = false
+
+UICorner_8.Parent = N
+
+A.Name = "A"
+A.Parent = N
+A.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+A.Position = UDim2.new(0.0250967499, 0, 0.0375588238, 0)
+A.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+A.Font = Enum.Font.SciFi
+A.Text = "1"
+A.TextColor3 = Color3.fromRGB(255, 255, 255)
+A.TextScaled = true
+A.TextSize = 14.000
+A.TextWrapped = true
+
+UICorner_9.Parent = A
+
+B.Name = "B"
+B.Parent = N
+B.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+B.Position = UDim2.new(0.353281915, 0, 0.0375588238, 0)
+B.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+B.Font = Enum.Font.SciFi
+B.Text = "2"
+B.TextColor3 = Color3.fromRGB(255, 255, 255)
+B.TextScaled = true
+B.TextSize = 14.000
+B.TextWrapped = true
+
+UICorner_10.Parent = B
+
+C.Name = "C"
+C.Parent = N
+C.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+C.Position = UDim2.new(0.681467056, 0, 0.0375588238, 0)
+C.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+C.Font = Enum.Font.SciFi
+C.Text = "3"
+C.TextColor3 = Color3.fromRGB(255, 255, 255)
+C.TextScaled = true
+C.TextSize = 14.000
+C.TextWrapped = true
+
+UICorner_11.Parent = C
+
+F.Name = "F"
+F.Parent = N
+F.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+F.Position = UDim2.new(0.681467056, 0, 0.170296595, 0)
+F.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+F.Font = Enum.Font.SciFi
+F.Text = "6"
+F.TextColor3 = Color3.fromRGB(255, 255, 255)
+F.TextScaled = true
+F.TextSize = 14.000
+F.TextWrapped = true
+
+UICorner_12.Parent = F
+
+D.Name = "D"
+D.Parent = N
+D.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+D.Position = UDim2.new(0.0250967499, 0, 0.170296595, 0)
+D.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+D.Font = Enum.Font.SciFi
+D.Text = "4"
+D.TextColor3 = Color3.fromRGB(255, 255, 255)
+D.TextScaled = true
+D.TextSize = 14.000
+D.TextWrapped = true
+
+UICorner_13.Parent = D
+
+E.Name = "E"
+E.Parent = N
+E.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+E.Position = UDim2.new(0.353281915, 0, 0.170296595, 0)
+E.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+E.Font = Enum.Font.SciFi
+E.Text = "5"
+E.TextColor3 = Color3.fromRGB(255, 255, 255)
+E.TextScaled = true
+E.TextSize = 14.000
+E.TextWrapped = true
+
+UICorner_14.Parent = E
+
+J.Name = "J"
+J.Parent = N
+J.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+J.Position = UDim2.new(0.0250967499, 0, 0.435772121, 0)
+J.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+J.Font = Enum.Font.SciFi
+J.Text = "10"
+J.TextColor3 = Color3.fromRGB(255, 255, 255)
+J.TextScaled = true
+J.TextSize = 14.000
+J.TextWrapped = true
+
+UICorner_15.Parent = J
+
+G.Name = "G"
+G.Parent = N
+G.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+G.Position = UDim2.new(0.0250967499, 0, 0.303034365, 0)
+G.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+G.Font = Enum.Font.SciFi
+G.Text = "7"
+G.TextColor3 = Color3.fromRGB(255, 255, 255)
+G.TextScaled = true
+G.TextSize = 14.000
+G.TextWrapped = true
+
+UICorner_16.Parent = G
+
+H.Name = "H"
+H.Parent = N
+H.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+H.Position = UDim2.new(0.353281915, 0, 0.303034365, 0)
+H.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+H.Font = Enum.Font.SciFi
+H.Text = "8"
+H.TextColor3 = Color3.fromRGB(255, 255, 255)
+H.TextScaled = true
+H.TextSize = 14.000
+H.TextWrapped = true
+
+UICorner_17.Parent = H
+
+K.Name = "K"
+K.Parent = N
+K.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+K.Position = UDim2.new(0.353281915, 0, 0.435772121, 0)
+K.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+K.Font = Enum.Font.SciFi
+K.Text = "11"
+K.TextColor3 = Color3.fromRGB(255, 255, 255)
+K.TextScaled = true
+K.TextSize = 14.000
+K.TextWrapped = true
+
+UICorner_18.Parent = K
+
+I.Name = "I"
+I.Parent = N
+I.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+I.Position = UDim2.new(0.681467056, 0, 0.303034365, 0)
+I.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+I.Font = Enum.Font.SciFi
+I.Text = "9"
+I.TextColor3 = Color3.fromRGB(255, 255, 255)
+I.TextScaled = true
+I.TextSize = 14.000
+I.TextWrapped = true
+
+UICorner_19.Parent = I
+
+L.Name = "L"
+L.Parent = N
+L.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+L.Position = UDim2.new(0.681467056, 0, 0.435772121, 0)
+L.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+L.Font = Enum.Font.SciFi
+L.Text = "12"
+L.TextColor3 = Color3.fromRGB(255, 255, 255)
+L.TextScaled = true
+L.TextSize = 14.000
+L.TextWrapped = true
+
+UICorner_20.Parent = L
+
+U.Name = "U"
+U.Parent = N
+U.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+U.Position = UDim2.new(0.681467056, 0, 0.833985448, 0)
+U.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+U.Font = Enum.Font.SciFi
+U.Text = "21"
+U.TextColor3 = Color3.fromRGB(255, 255, 255)
+U.TextScaled = true
+U.TextSize = 14.000
+U.TextWrapped = true
+
+UICorner_21.Parent = U
+
+T.Name = "T"
+T.Parent = N
+T.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+T.Position = UDim2.new(0.353281915, 0, 0.833985448, 0)
+T.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+T.Font = Enum.Font.SciFi
+T.Text = "20"
+T.TextColor3 = Color3.fromRGB(255, 255, 255)
+T.TextScaled = true
+T.TextSize = 14.000
+T.TextWrapped = true
+
+UICorner_22.Parent = T
+
+S.Name = "S"
+S.Parent = N
+S.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+S.Position = UDim2.new(0.0250967499, 0, 0.833985448, 0)
+S.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+S.Font = Enum.Font.SciFi
+S.Text = "19"
+S.TextColor3 = Color3.fromRGB(255, 255, 255)
+S.TextScaled = true
+S.TextSize = 14.000
+S.TextWrapped = true
+
+UICorner_23.Parent = S
+
+P.Name = "P"
+P.Parent = N
+P.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+P.Position = UDim2.new(0.0250967499, 0, 0.701247692, 0)
+P.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+P.Font = Enum.Font.SciFi
+P.Text = "16"
+P.TextColor3 = Color3.fromRGB(255, 255, 255)
+P.TextScaled = true
+P.TextSize = 14.000
+P.TextWrapped = true
+
+UICorner_24.Parent = P
+
+Q.Name = "Q"
+Q.Parent = N
+Q.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Q.Position = UDim2.new(0.353281915, 0, 0.701247692, 0)
+Q.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+Q.Font = Enum.Font.SciFi
+Q.Text = "17"
+Q.TextColor3 = Color3.fromRGB(255, 255, 255)
+Q.TextScaled = true
+Q.TextSize = 14.000
+Q.TextWrapped = true
+
+UICorner_25.Parent = Q
+
+R.Name = "R"
+R.Parent = N
+R.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+R.Position = UDim2.new(0.681467056, 0, 0.701247692, 0)
+R.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+R.Font = Enum.Font.SciFi
+R.Text = "18"
+R.TextColor3 = Color3.fromRGB(255, 255, 255)
+R.TextScaled = true
+R.TextSize = 14.000
+R.TextWrapped = true
+
+UICorner_26.Parent = R
+
+O.Name = "O"
+O.Parent = N
+O.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+O.Position = UDim2.new(0.681467056, 0, 0.568509877, 0)
+O.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+O.Font = Enum.Font.SciFi
+O.Text = "15"
+O.TextColor3 = Color3.fromRGB(255, 255, 255)
+O.TextScaled = true
+O.TextSize = 14.000
+O.TextWrapped = true
+
+UICorner_27.Parent = O
+
+N_2.Name = "N"
+N_2.Parent = N
+N_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+N_2.Position = UDim2.new(0.353281915, 0, 0.568509877, 0)
+N_2.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+N_2.Font = Enum.Font.SciFi
+N_2.Text = "14"
+N_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+N_2.TextScaled = true
+N_2.TextSize = 14.000
+N_2.TextWrapped = true
+
+UICorner_28.Parent = N_2
+
+M.Name = "M"
+M.Parent = N
+M.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+M.Position = UDim2.new(0.0250967499, 0, 0.568509877, 0)
+M.Size = UDim2.new(0.292419732, 0, 0.107046582, 0)
+M.Font = Enum.Font.SciFi
+M.Text = "13"
+M.TextColor3 = Color3.fromRGB(255, 255, 255)
+M.TextScaled = true
+M.TextSize = 14.000
+M.TextWrapped = true
+
+UICorner_29.Parent = M
+
+B_2.Name = "B"
+B_2.Parent = Hub
+B_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+B_2.Position = UDim2.new(0.290666699, 0, 0.0260899272, 0)
+B_2.Size = UDim2.new(0.690666854, 0, 0.949516118, 0)
+B_2.Visible = false
+
+UICorner_30.Parent = B_2
+
+TextLabel_2.Parent = B_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.266409129, 0, 0.342549056, 0)
+TextLabel_2.Size = UDim2.new(0.463320255, 0, 0.178860307, 0)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "Soon"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+-- Scripts:
+
+local function GOVKW_fake_script() -- NonBypassed.LocalScript 
+	local script = Instance.new('LocalScript', NonBypassed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.N.Visible = true
+		script.Parent.Parent.Parent.B.Visible = false
+	end)
+end
+coroutine.wrap(GOVKW_fake_script)()
+local function WDLRTPA_fake_script() -- Bypassed.LocalScript 
+	local script = Instance.new('LocalScript', Bypassed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.N.Visible = false
+		script.Parent.Parent.Parent.B.Visible = true
+	end)
+end
+coroutine.wrap(WDLRTPA_fake_script)()
+local function OIWTM_fake_script() -- A.LocalScript 
+	local script = Instance.new('LocalScript', A)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "You look like a square poodle dumbahh man what is u saying",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(OIWTM_fake_script)()
+local function ELEA_fake_script() -- B.LocalScript 
+	local script = Instance.new('LocalScript', B)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "ur roblox grill cheeted on you with a 9 yr old that mans name was firewolfgamer339",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ELEA_fake_script)()
+local function YOSFJEO_fake_script() -- C.LocalScript 
+	local script = Instance.new('LocalScript', C)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "shut up man that's why yo mother is a drag addict man she be having spiritual conversations with google translator man you stupid ahh boy",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(YOSFJEO_fake_script)()
+local function BHVWMJJ_fake_script() -- F.LocalScript 
+	local script = Instance.new('LocalScript', F)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "man what your mom was selling spaghetti flavoured meatballs in the walmart parking-lot and thought she was a genius",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(BHVWMJJ_fake_script)()
+local function HIYNPX_fake_script() -- D.LocalScript 
+	local script = Instance.new('LocalScript', D)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "sit up straight when u talk 2 me u look like jocky from left4dead",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(HIYNPX_fake_script)()
+local function IISGJ_fake_script() -- E.LocalScript 
+	local script = Instance.new('LocalScript', E)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "Yo grandma got kicked out of a lyric lemonade video cause she kept summoning dead rappers",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(IISGJ_fake_script)()
+local function LRFVGFG_fake_script() -- J.LocalScript 
+	local script = Instance.new('LocalScript', J)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "you went to a birthday party i caught you playing just fortnite with your 92nd year old grandpa",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(LRFVGFG_fake_script)()
+local function ELVTG_fake_script() -- G.LocalScript 
+	local script = Instance.new('LocalScript', G)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "you got banned from the LGBTQ hideout because you said said the colors of the rainbow were ugly you stupid as",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(ELVTG_fake_script)()
+local function RLMWJ_fake_script() -- H.LocalScript 
+	local script = Instance.new('LocalScript', H)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "yo little autistlc as be surf boarding in yo bath tub boy yo ahh poor as sh my man",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(RLMWJ_fake_script)()
+local function DFHEU_fake_script() -- K.LocalScript 
+	local script = Instance.new('LocalScript', K)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "That' why yo ahh get stage fright whenever you present school projects to the rest of the class man you anti-social as hell my man",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(DFHEU_fake_script)()
+local function CBJL_fake_script() -- I.LocalScript 
+	local script = Instance.new('LocalScript', I)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "Yeah that's why you heat up yo food with your mothers car engine boy",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(CBJL_fake_script)()
+local function UZXZSX_fake_script() -- L.LocalScript 
+	local script = Instance.new('LocalScript', L)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "you got banned from the LGBTQ hideout because you said said the colors of the rainbow were ugly you stupid as",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(UZXZSX_fake_script)()
+local function CDVUY_fake_script() -- U.LocalScript 
+	local script = Instance.new('LocalScript', U)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "You just mad because you sleep with your friend on a air mattress in his laundry room you fat ahh boy stop talking to me man",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(CDVUY_fake_script)()
+local function QBVIBZ_fake_script() -- T.LocalScript 
+	local script = Instance.new('LocalScript', T)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "you got banned from the LGBTQ hideout because you said said the colors of the rainbow were ugly you stupid as",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(QBVIBZ_fake_script)()
+local function MPBAFA_fake_script() -- S.LocalScript 
+	local script = Instance.new('LocalScript', S)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "Yo mother grounded you because you put yo bed sheets around yo 50 inch 4K Roku TV",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(MPBAFA_fake_script)()
+local function XERR_fake_script() -- P.LocalScript 
+	local script = Instance.new('LocalScript', P)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "Shut up man you used to kidnap people in bouncy houses boy",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(XERR_fake_script)()
+local function UJHPPX_fake_script() -- Q.LocalScript 
+	local script = Instance.new('LocalScript', Q)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "That's why you eat alphabet soup to remember your sentences boy",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(UJHPPX_fake_script)()
+local function LZJRNI_fake_script() -- R.LocalScript 
+	local script = Instance.new('LocalScript', R)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "Boy you wasted 3 hours of your life trying to convince the Bubble Guppies that you attend their school boy",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(LZJRNI_fake_script)()
+local function OXCH_fake_script() -- O.LocalScript 
+	local script = Instance.new('LocalScript', O)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "u look visually distorted",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(OXCH_fake_script)()
+local function QPSWY_fake_script() -- N_2.LocalScript 
+	local script = Instance.new('LocalScript', N_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "ur cousin is a nigerian scam marketer oh let me make a transaction to ur account looking ahh",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(QPSWY_fake_script)()
+local function HOUL_fake_script() -- M.LocalScript 
+	local script = Instance.new('LocalScript', M)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local args = {
+			[1] = "shut yo fatty batty ratty mojo jojo lookin ahh up",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end)
+end
+coroutine.wrap(HOUL_fake_script)()
+local function JJXMFOY_fake_script() -- Frame.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (5); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(JJXMFOY_fake_script)()
